@@ -12,6 +12,7 @@ import { RecipeIngredientsService } from './recipe-ingredients.service';
 import { RecipeDirectionsService } from './recipe-directions.service';
 import { RecipeInfoComponent } from './recipe-info/recipe-info.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
+import { BootstrapDemoComponent } from './bootstrap-demo/bootstrap-demo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
     RecipeListComponent,
     RecipeComponent,
     RecipeInfoComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    BootstrapDemoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,13 +1,14 @@
 <h3>{{ name }}</h3>
 <h4>Ingredients:</h4>
 <ul>
-	<li *ngFor="let ingredient of allIngredients">
-		{{ ingredient }}
-	</li>
+  <li *ngFor="let ingredient of allIngredients">
+    {{ ingredient }}
+  </li>
 </ul>
 <h4>Directions:</h4>
 <ol>
-	<li *ngFor="let direction of allDirections">
-		{{ direction }}
-	</li>
+  <li *ngFor="let direction of allDirections">
+    {{ direction }}
+  </li>
 </ol>
+<pre>{{ recipeList | json }}</pre>
