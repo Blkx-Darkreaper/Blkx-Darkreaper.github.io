@@ -6,10 +6,10 @@ import { of, Observable } from 'rxjs';
 })
 export class RecipeListService {
 
-    constructor() { }
+  constructor() { }
 
-    GetAllRecipes(): Observable<any> {
-      const allRecipes = {"names": ["20th Century Cocktail", "Ahumado Seco", "Appletini"]};
-      return of(allRecipes);
-    }
+  getAllRecipes(): Observable<any> {
+    const allRecipes = { "names": ["20th Century Cocktail", "Ahumado Seco", "Appletini"] };
+    return of(allRecipes);
+  }
 }
