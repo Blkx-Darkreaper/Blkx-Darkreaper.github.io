@@ -17,5 +17,5 @@ export interface IngredientModel {
 
 export interface IngredientAmountModel {
   units: string;
-  amount: number;
+  amount: string;
 }
